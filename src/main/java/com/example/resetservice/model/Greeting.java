@@ -1,4 +1,4 @@
-package com.example.resetservice;
+package com.example.resetservice.model;
 
 /**
  * @author admin
