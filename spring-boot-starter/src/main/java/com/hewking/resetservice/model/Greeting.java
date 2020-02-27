@@ -1,4 +1,4 @@
-package com.example.resetservice;
+package com.hewking.resetservice.model;
 
 /**
  * @author admin
