@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>spring-boot-starter</module>
+		<module>spring-boot-access-data-jpa</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
