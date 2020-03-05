@@ -16,7 +16,7 @@ public class LoggerFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
-        System.out.println(TAG + " request url:" + request.getRequestURI());
+        System.out.println(TAG + " request url:" + request.getRequestURI() + "," + request.getQueryString());
         filterChain.doFilter(servletRequest,servletResponse);
     }
 
